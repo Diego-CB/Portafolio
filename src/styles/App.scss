@@ -1,0 +1,30 @@
+
+.App {
+  width: 100vw;
+  height: 100vh;
+
+  display: flex;
+  flex-direction: column;
+  background-color: red;
+
+  .header,
+  .slider,
+  .contact {
+    width: 100%;
+  }
+}
+
+.header {
+  height: 100px;
+  background-color: green;
+}
+
+.slider {
+  flex-grow: 1;
+  background-color: skyblue;
+}
+
+.contact {
+  height: 100px;
+  background-color: yellow;
+}
