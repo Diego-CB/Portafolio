@@ -1,0 +1,27 @@
+
+.progress-container {
+  height: 30px;
+  width: 100%;
+  display: inline-flex;
+  align-items: center;
+  
+  .progress-bar {
+    margin-top: 2px;
+    margin-left: 2px;
+    height: 80%;
+    width: 252px;
+    background-color: #cdcdcd;
+    border-radius: 10px;
+    
+    .filler {
+      height: 100%;
+      background-color: rgb(53, 78, 134);
+      border-radius: inherit,
+    }
+  }
+  
+  h4 {
+    text-align: center;
+    width: 20%;
+  }
+}

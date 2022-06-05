@@ -12,9 +12,9 @@ const About = () => (
         <strong>& Musician</strong>
       </h1>
       <p>
-        {'I\'m actualy coursing the 5th semester of computer science'}
+        {'I\'m actualy coursing the 5th semester of computer science.'}
         <br />
-        I like working listening to some music and a cup of coffee at hand
+        I like coding listening to some music and a cup of coffee at hand.
       </p>
     </div>
   </section>

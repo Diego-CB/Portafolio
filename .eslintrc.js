@@ -32,5 +32,6 @@ module.exports = {
     }],
     'consistent-return': 0,
     'comma-dangle': 0,
+    'react/prop-types': 0
   },
 }
