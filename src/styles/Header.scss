@@ -1,0 +1,53 @@
+.header {
+  padding-left: 40px;
+  padding-right: 40px;
+  width: calc(100% - 80px);
+  height: 60px;
+
+  background-color: #111;
+
+  display: flex;
+  align-items: center;
+  position: fixed;
+  z-index: 10;
+  
+  color: #fff;
+}
+
+.hi-diego {
+  overflow: hidden;
+  width: 12em;
+  height: 100%;
+  transition: width ease-out .2s;
+
+  &:hover {
+    width: 20em;
+  }
+
+  h2 {
+    width: 20rem;
+    height: 70px;
+  }
+}
+
+.header-contact {
+  flex-grow: 1;
+
+  display: flex;
+  justify-content: flex-end;
+  column-gap: 28px;
+
+  a {
+    color: #fff;
+    position: relative;
+    width: fit-content;
+    font-size: 18px;
+    text-decoration: none;
+    transition: all ease-out .1s;
+    
+    &:hover {
+      text-decoration: underline;
+      transform: translateY(-1.5px);
+    }
+  }
+}

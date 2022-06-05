@@ -1,6 +1,9 @@
 import { useState } from 'react'
-import logo from './assets/images/logo.svg'
 import './styles/App.scss'
+
+import Header from './components/Header'
+import About from './components/About'
+import Skills from './components/Skills'
 
 // <a href="https://www.flaticon.com/free-icons/arrow" title="arrow icons">Arrow icons created by Handicon - Flaticon</a>
 
@@ -9,7 +12,9 @@ const App = () => {
 
   return (
     <div className="App">
-      <section className="header"></section>
+      <Header />
+      <About />
+      <Skills />
       <section className="slider"></section>
       <section className="contact"></section>
     </div>
