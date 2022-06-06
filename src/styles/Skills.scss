@@ -88,4 +88,54 @@
   background-color: #ddd;
 }
 
+@media (max-width: 750px) {
+  .skill-list,
+  .other {
+    width: calc(50vw - 0.8px);
+    
+    h2 {
+      font-size: 1.4rem;
+    }
 
+    ul {
+      width: calc(100% - 30px);
+    }
+
+    li {
+      padding: 2px;
+      width: 100%;
+  
+      grid-template-rows: 100px 40px 30px;
+      grid-template-areas: 
+        "img img"
+        "title title"
+        "bar bar"
+      ;
+  
+      h3 {
+        margin: 0;
+        position: relative;
+        bottom: 15%;
+        font-size: 1.4rem;
+        line-height: 1.2rem;
+      }
+  
+      .progress-container {grid-area: bar}
+    }
+  }
+
+  .other {
+    width: 100%;
+
+    li {
+      grid-template-rows: 100px 60px 30px;
+      padding: 2px;
+      width: 60%;
+      height: 189px;
+
+      h3 {
+        bottom: 0;
+      }
+    }
+  }
+}
