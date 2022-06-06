@@ -18,7 +18,7 @@ const toolList = [
   [replit, 'Online IDE and hosting platform', 'Repl.It'],
   [terminal, 'PowerShell / Bash scp / ssh', 'Terminal'],
   [lucid, 'Database modelation, Flow Diagram', 'LucidChart'],
-  [webpack, 'Module Bundler for React.Js', 'Weback']
+  [webpack, 'Module Bundler for React.Js', 'WebPack']
 ]
 
 const Tools = () => (

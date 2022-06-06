@@ -30,7 +30,7 @@ const FrontList = () => (
     <li>
       <img src={css} alt="" />
       <h3>
-        css/
+        css
         <br />
         sass
       </h3>
@@ -81,11 +81,7 @@ const BackList = () => (
     <li>
       <img src={c} alt="" />
       <h3>
-        C
-        <br />
-        C#
-        <br />
-        C++
+        C C# C++
       </h3>
       <ProgressBar completed={60} />
     </li>

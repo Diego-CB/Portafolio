@@ -9,6 +9,7 @@
     "front div back"
     "other other other"
   ;
+  
   .frontend {grid-area: front}
   .backend {grid-area: back}
   .column-devider {
@@ -103,6 +104,7 @@
 
     li {
       padding: 2px;
+      max-width: 235px;
       width: 100%;
   
       grid-template-rows: 100px 40px 30px;
@@ -115,7 +117,7 @@
       h3 {
         margin: 0;
         position: relative;
-        bottom: 15%;
+        bottom: 0%;
         font-size: 1.4rem;
         line-height: 1.2rem;
       }
@@ -130,6 +132,7 @@
     li {
       grid-template-rows: 100px 45px 30px;
       width: 60%;
+      max-width: 225px;
       height: 175px;
 
       h3 {
