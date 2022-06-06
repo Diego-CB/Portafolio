@@ -17,7 +17,7 @@
 </p>
 <hr />
 
-## Introducción
+## Introduction
 
 This is my personal resume-portfolio website. 
 
