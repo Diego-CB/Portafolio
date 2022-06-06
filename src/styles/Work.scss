@@ -29,6 +29,7 @@
 
   display: flex;
   justify-content: center;
+  align-items: center;
   cursor: pointer;
   background-color: transparent;
   border: none;
@@ -74,7 +75,6 @@
   }
 }
 
-
 .work-info {
   padding-left: 20px;
   padding-right: 20px;
@@ -96,5 +96,48 @@
     margin-top: 0;
     line-height: 22px;
     font-size: 18px;
+  }
+}
+
+@media (max-width: 750px) {
+  .slider-container {
+    max-height: 600px;
+    background-color: #111;
+    
+    h2 {
+      font-size: 2em;
+    }
+  }
+
+  .actual-slider {
+    column-gap: 5px;
+  }
+
+  .slider {
+    width: 75%;
+    height: 98%;
+    overflow: hidden;
+    min-width: 260px;
+
+    ul {
+      align-items: center;
+    }
+  
+    img {
+      border-radius: 10px;
+      max-height: 350px;
+      width: 100%;
+      cursor: pointer;
+    }
+  }
+
+  .arrow-button {
+    width: 10%;
+    height: 60%;    
+  
+    img {
+      width: 80px;
+      height: 80px;
+    }
   }
 }

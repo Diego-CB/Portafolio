@@ -17,51 +17,79 @@
     column-gap: 30px;
     row-gap: 40px;
     flex-wrap: wrap;
+  }
+
+  li {
+    width: 150px;
+    height: 150px;
+    overflow: hidden;
+
+    * {
+      margin: 0;
+      height:100%;
+      border-radius: 10%;
+      background-color: #343434;
+    }
+
+    img {
+      background-color: #fff;
+      border: solid 1px #fff;
+      position: relative;
+      top: -100.5%;
+      right: 1px;
+      transition: top .25s ease;
+    }
+
+    &:hover {
+      img{top: -200.5%}
+    }
+
+    p {
+      color: #fff;
+      font-family: "Roboto", sans-serif;
+
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+    }
     
+    h3 {
+      background-color: #fff;
+      width: 100%;
+      height: fit-content;
+      color: #333;
+      text-align: center;
+      position: relative;
+      bottom: 118%;
+      border-radius: 10%;
+    }
+  }
+}
+
+@media (max-width: 750px) {
+  .tools {
+    h2 {
+      font-size: 2rem;
+    }
+
+    ul {
+      padding: 20px;
+      margin-top: 0;
+      padding-top: 0;
+      column-gap: 15px;
+      row-gap: 25px;
+    }
+
     li {
-      width: 150px;
-      height: 150px;
-      overflow: hidden;
+      width:  90px;
+      height: 90px;
 
-      * {
-        margin: 0;
-        height:100%;
-        border-radius: 10%;
-        background-color: #343434;
-      }
-
-      img {
-        background-color: #fff;
-        border: solid 1px #fff;
-        position: relative;
-        top: -100.5%;
-        right: 1px;
-        transition: top .25s ease;
-      }
-
-      &:hover {
-        img{top: -200.5%}
-      }
-
-      p {
-        color: #fff;
-        font-family: "Roboto", sans-serif;
-
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        text-align: center;
-      }
-      
+      p {font-size: 0.8rem}
       h3 {
-        background-color: #fff;
-        width: 100%;
-        height: fit-content;
-        color: #333;
-        text-align: center;
+        font-size: 0.8rem;
         position: relative;
-        bottom: 116%;
-        border-radius: 10%;
+        bottom: 120%;
       }
     }
   }
