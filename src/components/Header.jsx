@@ -13,7 +13,7 @@ const Header = () => (
       <a href="https://replit.com/@Dacb">
         <strong>Repl.it</strong>
       </a>
-      <a href="https://wa.me/50254149519?text=HI Diego">
+      <a href="https://wa.me/50254149519?text=Hi Diego, I saw your potfolio">
         <strong>WhatsApp</strong>
       </a>
       <a href="mailto:cordova15441@gmail.com">

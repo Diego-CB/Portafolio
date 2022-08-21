@@ -4,9 +4,15 @@
   "version": "0.0.0",
   "scripts": {
     "dev": "vite",
-    "build": "vite build"
+    "build": "vite build",
+    "ssr": "node server/index.js"
   },
   "dependencies": {
+    "@babel/preset-env": "^7.18.6",
+    "@babel/preset-react": "^7.18.6",
+    "@babel/register": "^7.18.6",
+    "express": "^4.18.1",
+    "ignore-styles": "^5.0.1",
     "react": "^18.0.0",
     "react-dom": "^18.0.0",
     "sass": "^1.52.2"
