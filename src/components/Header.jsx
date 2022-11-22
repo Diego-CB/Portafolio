@@ -13,10 +13,10 @@ const Header = () => (
       <a href="https://replit.com/@Dacb">
         <strong>Repl.it</strong>
       </a>
-      <a href="https://wa.me/50254149519?text=Hi Diego, I saw your potfolio">
+      <a href="https://wa.me/50254149519?text=Hi Diego, I saw your portfolio">
         <strong>WhatsApp</strong>
       </a>
-      <a href="mailto:cordova15441@gmail.com">
+      <a href="mailto:cor20212@uvg.edu.gt">
         <strong>Email</strong>
       </a>
     </div>
